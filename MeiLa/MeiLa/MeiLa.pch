@@ -1,0 +1,27 @@
+//
+//  MeiLa.pch
+//  MeiLa
+//
+//  Created by Mac on 16/11/24.
+//  Copyright © 2016年 CH. All rights reserved.
+//
+
+#ifndef MeiLa_pch
+#define MeiLa_pch
+
+//三方库头文件
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+#import <YYModel.h>
+#import <UIImageView+WebCache.h>
+#import <SDImageCache.h>
+#import <UITableView+FDTemplateLayoutCell.h>
+#import <ZYBannerView.h>
+//自定义类
+#import "CHDataRequest.h"
+//自定义常量
+
+#define IMGURL(path) [NSURL URLWithString:[NSString stringWithFormat:@"http://meilapp.qiniucdn.com%@",path]]
+#define WEBURL(path) [NSString stringWithFormat:@"http://www.meilapp.com/suptoplist/%@",path]
+#endif /* MeiLa_pch */
